@@ -1,0 +1,14 @@
+@keyframes clearBoxAnimation {
+    0% {
+      transform: scale(0.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .animate-clear-box {
+    animation: clearBoxAnimation 1s forwards;
+    transform-origin: center;
+  }
+  
